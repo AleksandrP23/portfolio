@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Titles -->
+	<title>Персональный сайт портфолио - Александр Петров</title>
+	<meta name="keywords" content="Ключевые слова...">
+    <meta name="description" content="Описание страницы...">
+
+	<!-- Syles -->
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css">
+
+
+	<!-- Fonts -->
+	<link rel="stylesheet" type="text/css" href="fonts/noto-webfont/noto.css">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+	<!-- FavIcons -->
+	<link rel="shortcut icon" href="img/favicons/favicon-48x48.ico"  type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+	
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+</head>
+<body>
+
+	<!--[if lt IE 8]>
+	    <p class="browserupgrade">Вы используете <strong>устаревшую</strong> версию браузера. Пожалуйста <a href="http://browsehappy.com/">обновите свой браузер</a>.</p>
+	<![endif]-->
+	
+	<!-- Шапка страницы -->
+	<div class="header">
+		<div class="header__inner">
+			<nav class="navigation">
+				<button id="navigation__button" class="cmn-toggle-switch cmn-toggle-switch__htx">
+					<span>toggle menu</span>
+				</button>
+				
+				<ul class="navigation__list">
+					<li><a href="#resume">Резюме</a></li>
+					<li><a href="#portfolio">Портфолио</a></li>
+					<li><a href="#contacts">Контакты</a></li>
+				</ul>
+			</nav>
+
+			<div class="header__centeed-content">
+				<div class="user-photo user-photo--shadow">
+					<img src="usercontent/img/photo-small.jpg" alt="Александр Петров">
+				</div>
+				<h1 class="header__title">Александр Петров</h1>
+				<h2 class="header__subtitle">HTML верстальщик сайтов</h2>
+			</div>
+			
+			<a href="#resume" class="mouse_scroll">
+				<div class="mouse">
+					<div class="wheel"></div>
+				</div>
+				<div>
+					<span class="m_scroll_arrows unu"></span>
+					<span class="m_scroll_arrows doi"></span>
+					<span class="m_scroll_arrows trei"></span>
+				</div>
+			</a>
+		</div>
+	</div>
+	<!-- //Шапка страницы -->
+
+	<!-- Резюме -->
+	<section id="resume" class="section section--bottom-line section--bg-laptop">
+		<div class="container">
+			<div class="row">
+				<!-- Фотография -->
+				<div class="hidden-xs col-sm-2 col-lg-3">	
+					<div class="user-photo user-photo--big">
+						<img src="usercontent/img/photo-big.jpg" alt="Александр Петров">
+					</div>
+				</div>
+				<!-- //Фотография -->
+				<!-- Резюме пользователя -->
+				<div class="col-sm-10 col-lg-9">	
+					<div class="heading">Резюме</div>
+					<p class="heading__name"><strong>Александр Петров</strong><br>
+					30 лет, Санкт-Петербург, Россия </p>
+					<p>Родился и вырос в городе Санкт-Петербург. Окончил два института, работал в сфере страхования. В настоящее время изучаю Веб-разработку.</p>					
+
+					<!-- Опыт и образование -->
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="heading heading--medium">Опыт работы</div>
+							<ul class="definition-list">
+								<li class="definition-list__item">
+									<div class="definition-list__def">
+										март 2013 - февраль 2016
+									</div>
+									<p class="definition-list__desc">Менеджер по работе с брокерами в СОАО "Ресо-Гарантия"</p>
+								</li>
+								<li class="definition-list__item">
+									<div class="definition-list__def">
+										август 2011 - август 2012
+									</div>
+									<p class="definition-list__desc">Менеджер по страхованию в СОАО "ВСК"</p>
+								</li>
+							</ul>
+						</div>
+						<div class="col-sm-6">
+							<div class="heading heading--medium">Образование</div>
+							<ul class="definition-list">
+								<li class="definition-list__item">
+									<div class="definition-list__def">
+										июль 2019 - сентябрь 2019
+									</div>
+									<p class="definition-list__desc">Курсы по верстке сайтов HTML5, CSS3 - WebCademy.ru</p>
+								</li>
+								<li class="definition-list__item">
+									<div class="definition-list__def">
+										февраль 2016 - июль 2018
+									</div>
+									<p class="definition-list__desc">Санкт-Петербургский государственный политехнический университет, веб-разработчик</p>
+								</li>
+								<li class="definition-list__item">
+									<div class="definition-list__def">
+										сентябрь 2006 - июль 2011
+									</div>
+									<p class="definition-list__desc">Балтийская академия туризма и предпринимательства, менеджер организаций</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<a href="./usercontent/pdf/Александр Петров - Верстальщик.pdf" class="button" target="__blank">
+						<i class="fa fa-download" aria-hidden="true"></i>
+						Скачать резюме
+					</a>
+				</div>
+					<!-- //Опыт и образование -->
+
+				<!-- //Резюме пользователя -->
+			</div>
+		</div>
+	</section>
+	<!-- //Резюме -->
+
+	<!-- Портфолио -->
+	<div id="portfolio" class="section section--padding-smaller section--bg-gear">
+		<div class="container">
+			<div class="heading heading--center">Мои работы</div>
+			<!-- Фильтр -->
+			<div class="filter-block">
+				<ul class="filter-block__block">
+					<li class="filter-block__element">
+						<span class="filter-block__button filter-block__button--active filter" data-filter="all">Все</span>
+					</li>
+					<li class="filter-block__element">
+						<span id="filter-block__button" class="filter-block__button filter" data-filter=".html-css">HTML + CSS</span>
+					</li>
+					<li class="filter-block__element">
+						<span class="filter-block__button filter" data-filter=".bootstrap">Bootstrap</span>
+					</li>
+					<li class="filter-block__element">
+						<span class="filter-block__button filter" data-filter=".tutorial">Учебные</span>
+					</li>
+					<li class="filter-block__element">
+						<span class="filter-block__button filter" data-filter=".payed">На заказ</span>
+					</li>
+				</ul>
+			</div>
+			<!-- //Фильтр -->
+			
+			<!-- Работы в портфолио -->
+			<div id="portfolio-projects" class="row">
+				<div class="col-sm-4 mix html-css tutorial">
+					<div class="portfolio-item">
+						<div class="portfolio-item__img">
+							<a href="usercontent/img/full/forest-trevel.jpg" class="fancybox portfolio-item__img__hover" rel="group" title="Учебный сайт Форест-тревел">
+								<i class="fa fa-search" aria-hidden="true"></i>
+								<br>
+								<span>смотреть макет</span>
+							</a>
+							<img src="./usercontent/img/project_forest.jpg" alt="Форест-Тревел">
+						</div>
+						<div class="portfolio-item__title"> 
+							<a href="http://project2019.zzz.com.ua/dz_forest">Учебный макет Форест</a>
+						</div>
+						<div class="portfolio-item__desc">Верстка одностраничного сайта по PSD макету.</div>
+					</div>
+				</div>
+				<div class="col-sm-4 mix bootstrap tutorial">
+					<div class="portfolio-item">
+						<div  class="portfolio-item__img">
+							<a href="usercontent/img/full/Apollo.png" class="fancybox portfolio-item__img__hover" rel="group" title="Учебный сайт Аполло">
+								<i class="fa fa-search" aria-hidden="true"></i>
+								<br>
+								<span>смотреть макет</span>
+							</a>
+							<img src="./usercontent/img/project_apollo.jpg" alt="Учебный макет Аполло">
+						</div>
+						<div class="portfolio-item__title"> 
+							<a href="http://project2019.zzz.com.ua/dz_apollo">Учебный макет Аполло</a>
+						</div>
+						<div class="portfolio-item__desc">Верстка лендинга хостинг компании. Мобильная адаптивность.</div>
+					</div>
+				</div>
+				<div class="col-sm-4 mix bootstrap tutorial">
+					<div class="portfolio-item">
+						<div  class="portfolio-item__img">
+							<a href="usercontent/img/full/Portfolio.png" class="fancybox portfolio-item__img__hover" rel="group" title="Личный сайт портфолио">
+								<i class="fa fa-search" aria-hidden="true"></i>
+								<br>
+								<span>смотреть макет</span>
+							</a>
+							<img src="./usercontent/img/project_portfolio.jpg" alt="Личный сайт портфолио">
+						</div>
+						<div class="portfolio-item__title"> 
+							<a href="http://project2019.zzz.com.ua/dz_portfolio/">Личный сайт портфолио</a>
+						</div>
+						<div class="portfolio-item__desc">Верстка личного сайта портфолио на котором вы сейчас находитесь.</div>
+					</div>
+				</div>
+				
+			</div>
+			<!-- //Работы в портфолио -->
+		</div>
+	</div>
+	<!-- //Портфолио -->
+
+	<!-- Контакты -->
+		<div id="contacts" class="contacts section
+		section--padding-smaller section--bg-cloud">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="heading heading--white">
+							Контакты
+						</div>
+						<div class="contacts__desc">
+							<p>
+								Если вы ищите специалиста по верстке сайтов, front-end разработчика в команду или для работы над проектом —  я к вашим услугам.
+							</p>
+						</div>
+						
+						<div class="row">
+							<div class="col-lg-6">
+								<ul class="definition-list">
+									<li class="definition-list__item">
+										<div class="definition-list__def definition-list__def--light
+										definition-list__def--bigger">
+											Email
+										</div>
+										<div class="definition-list__desc">
+											<p><a href="mailto:aleksanderp3t@yandex.ru">aleksanderp3t@yandex.ru</a></p>
+										</div>
+									</li>
+									<li class="definition-list__item">
+										<div class="definition-list__def definition-list__def--light definition-list__def--bigger">
+											SKYPE
+										</div>
+										<div class="definition-list__desc">
+											<p><a href="skype:sanya7">sanya7</a></p>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-6">
+								<ul class="definition-list">
+									<li class="definition-list__item">
+										<div class="definition-list__def definition-list__def--light
+										definition-list__def--bigger">
+											Телефон
+										</div>
+										<div class="definition-list__desc">
+											<p><a href="tel:+7(921)8756495">+7 (921) 875-64-95</a></p>
+										</div>
+									</li>
+									<li class="definition-list__item">
+										<div class="definition-list__def definition-list__def--light
+										definition-list__def--bigger">
+											Адрес
+										</div>
+										<div class="definition-list__desc">
+											<p>Россия, Санкт-Петербург</p>
+										</div>
+									</li>
+								</ul>
+							</div>						
+						</div>
+						<ul class="definition-list">
+							<li class="definition-list__item">
+								<div class="definition-list__def definition-list__def--light
+								definition-list__def--bigger">
+									Социальные сети
+								</div>
+								<div class="definition-list__desc">
+									<div class="social-icons">
+										<a href="https://www.youtube.com/channel/UCo4dFgXR5k3QXiH-dQW7sug?view_as=subscriber" class="fa fa-youtube" aria-hidden="true"></a>
+										<a href="https://github.com/AleksandrP23" class="fa fa-github" aria-hidden="true"></a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="heading heading--medium heading--padding-top heading--white">Связаться со мной</div>
+						
+						<form id="contact-form" class="contact-form" action="php/mail.php" method="POST">
+
+							<!-- Hidden Required Fields -->
+							<input type="hidden" name="project_name" value="Мой персональный сайт">
+							<input type="hidden" name="form_from" value="admin@project2019.zzz.com.ua">
+							<input type="hidden" name="admin_email" value="aleksanderp3t@yandex.ru">
+							<input type="hidden" name="form_subject" value="Сообщение с сайта">
+							<!-- END Hidden Required Fields -->
+
+							<input type="text" class="contact-form__input" name="name" placeholder="Имя">
+							<input type="text" class="contact-form__input" name="email" placeholder="Email">
+							
+							<div class="clearfix">
+								<input type="text" class="contact-form__input contact-form__input--half-width" name="skype" placeholder="Skype">
+								<input type="text" class="contact-form__input contact-form__input--half-width" name="phone" placeholder="Телефон">
+							</div>
+							
+							<div class="contact-form__bg-pencil">
+								<textarea class="contact-form__textarea" name="message" placeholder="Ваше сообщение"></textarea>
+							</div>
+							
+							<input type="submit" class="contact-form__submit" name="" value="Отправить">
+
+						</form>
+						<div id="answer"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- //Контакты -->
+
+	<div class="copyright">
+		<div class="container">
+			<p class="copyright__lable">© 2019 Александр Петров</p>
+			<p>Веб-разработчик из Санкт-Петербурга, занимаюсь версткой и созданием сайтов.</p>
+			<p>Этот сайт сделал в рамках прохождения обучения по верстке на курсах от <a href="http://WebCademy.ru" target="_blank">WebCademy.ru</a> </p>
+		</div>
+	</div>
+
+	<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="libs/pagescroll2id/jquery.malihu.PageScroll2id.js"></script>
+	<script src="libs/mixitup2/jquery.mixitup.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/jquery/jquery.mousewheel-3.0.6.pack.js"></script>
+	<script src="libs/jquery.validate/jquery.validate.js"></script>
+
+	
+	<script src="js/navigation.js"></script>
+	<script src="js/filter-block.js"></script>
+	<script src="js/main.js"></script>
+
+
+</body>
+</html>

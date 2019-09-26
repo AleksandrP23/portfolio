@@ -1,0 +1,125 @@
+.portfolio-item {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    max-width: 360px;
+
+    &__img {
+        display: block;
+        min-height: 150px;
+        margin-bottom: 15px;
+        position: relative;
+        background-image: url(../img/placeholders/project_placeholder.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+
+        &:hover &__hover {
+            display: block;
+            top: 0%;
+        }
+
+        @media (min-width: 768px) {
+            height: 150px;
+        }
+
+        @media (min-width: 992px) {
+            height: 203px;
+        }
+
+        @media (min-width: 1200px) {
+            height: 250px;
+            margin-bottom: 16px;
+        }
+    }
+
+    &__img__hover {
+        display: block;
+        position: absolute;
+        background-color: rgba(0, 82, 194, .9);
+        top: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        text-align: center;
+        font-size: 26px;
+        color: #fff;
+        padding-top: 60px;
+        transition: top 0.5s ease-out;
+
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .fa {
+            font-size: 64px;
+            margin-bottom: 15px;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            @media (min-width: 768px) {
+                font-size: 50px;
+            }
+
+            @media (min-width: 1200px) {
+                font-size: 64px;
+                position: static;
+                transform: translate(0%, 0%);
+            }
+        }
+
+        span {
+            display: none;
+
+            @media (min-width: 1200px) {
+                display: inline-block;
+            }
+        }
+    }   
+
+    &__title {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        
+
+        @media (min-width: 992px) {
+            font-size: 24px;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+            transition: all .3s ease-in;
+            &:hover, &:active, &:focus {
+                color: @blueHeading;
+                text-decoration: none;
+            }
+            
+            @media (min-width: 1200px) {
+                border-bottom: 1px dotted #000;
+
+                &:hover, &:active, &:focus {
+                    color: @blueHeading;
+                    text-decoration: none;
+                    border-bottom: 1px dotted @blueHeading;
+                }
+            }
+        }
+    }
+
+    &__desc {
+        font-size: 14px;
+        line-height: 1.42;
+
+        @media (min-width: 992px) {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    }
+}

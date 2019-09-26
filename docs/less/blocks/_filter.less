@@ -1,0 +1,73 @@
+.filter-block {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 19px;
+    margin-bottom: 20px;
+
+    @media (min-width: 768px) {
+        padding-top: 8px;
+        margin-bottom: 50px;
+    }
+
+    &__block {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    &__element {
+        margin: 0 0 9px;
+        padding: 0;
+        display: block;
+
+        @media (min-width: 768px) {
+            margin-right: 0px;
+            display: inline-block;
+        }
+
+        @media (min-width: 1200px) {
+            margin-right: 15px;
+            
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    &__button {
+        display: inline-block;
+        color: #cecece;
+        cursor: pointer;
+        padding: 10px 24px 13px;
+        border: 2px solid #fff;
+        transition: all .3s ease-in;
+        &:hover {
+            color: #000;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.filter-block__button--active {
+    padding: 10px 24px 13px;
+    color: #000;
+    border: 2px solid @blueHeading;
+    transition: all .3s ease-in;
+}
+
+#portfolio-projects {
+    text-align: center;
+
+    @media (min-width: 768px) {
+        text-align: left;
+    }
+}
+
+#portfolio-projects .mix {
+    display: none;
+    text-align: left;
+}
