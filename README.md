@@ -9,4 +9,4 @@
 * Фильтр карточек в Портфолио
 * Форма обратной связи (Ajax, PHP)
 
-[Онлайн демо](http://project2019.zzz.com.ua/dz_portfolio/)
+[Онлайн демо](https://aleksandrp23.github.io/portfolio/)
